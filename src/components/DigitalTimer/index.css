@@ -1,0 +1,170 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.app-container {
+  background-image: linear-gradient(to bottom, #ffffff, #cffcf1);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    background-image: linear-gradient(
+      to right,
+      #ffffff,
+      #cffcf1,
+      #cffcf1,
+      #cffcf1
+    );
+  }
+}
+
+.main-container {
+  padding: 25px;
+  margin: 25px;
+  width: 90%;
+  height: 93vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .main-container {
+    width: 95%;
+    height: 90vh;
+  }
+}
+
+.heading {
+  font-family: Roboto;
+  font-size: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 50px;
+  }
+}
+
+.timer-display-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  height: 350px;
+  width: 350px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .timer-display-container {
+    height: 450px;
+    width: 450px;
+  }
+}
+
+.round-container {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .round-container {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+.time {
+  font-family: Roboto;
+  font-size: 25px;
+  margin-top: 20px;
+  color: #00d9f5;
+}
+
+@media screen and (min-width: 768px) {
+  .time {
+    font-size: 35px;
+  }
+}
+
+.timer-status {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: -15px;
+  color: #0f172a;
+}
+
+@media screen and (min-width: 768px) {
+  .timer-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.timer-controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-pause-reset-container {
+  display: flex;
+  flex-direction: space-between;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.icon {
+  height: 50px;
+  width: auto;
+}
+
+.controls-text {
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.controls-container {
+  margin-right: 10px;
+}
+
+.timer-limit {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.limit {
+  background-image: linear-gradient(to right, #cffcf1, #defafe, #00d9f5);
+  border-radius: 5px;
+  padding: 8px 16px;
+}
